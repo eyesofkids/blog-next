@@ -22,9 +22,11 @@
   --ifm-color-primary-lightest: #b1bff3;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
-  font-family: 'Helvetica', 'Arial', 'LiHei Pro', '黑體-繁', '微軟正黑體',
-    sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'LiHei Pro', '黑體-繁',
+    '微軟正黑體', sans-serif;
 }
 
 code,

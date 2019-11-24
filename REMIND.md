@@ -1,8 +1,14 @@
+# Remind
+
 ## homepage to blog
 
-change page title
+change hompage title
 
 node_modules/@docusaurus/theme-classic/src/theme/BlogListPage/index.js
+
+## truncate
+
+`<!--truncate-->`
 
 ## author
 
@@ -15,4 +21,4 @@ author_image_url: https://avatars2.githubusercontent.com/u/433742?s=460&v=4
 
 NOTE: To deploy to production in the future, run `now --prod`.
 
-> https://blog-next-cpr1qwtr7.now.sh [8s]
+https://eddychang.now.sh/

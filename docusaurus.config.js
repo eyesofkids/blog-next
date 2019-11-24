@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  title: 'EddyChang 技術部落格',
+  title: 'Eddy Chang 技術部落格',
   tagline: 'JavaScript, React, App技術開發心得、教學與筆記',
   url: 'https://eddychang.me',
   baseUrl: '/',
@@ -19,7 +19,7 @@ module.exports = {
       theme: require('prism-react-renderer/themes/palenight'),
     },
     navbar: {
-      title: 'EddyChang 技術部落格',
+      title: 'Eddy Chang 技術部落格',
       logo: {
         alt: 'Logo',
         src: 'img/react-maid-cb2.png',
@@ -87,6 +87,7 @@ module.exports = {
         blog: {
           path: './blog',
           routeBasePath: '/', // Set this value to '/'.
+          sidebarPath: require.resolve('./sidebars.js'),
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
